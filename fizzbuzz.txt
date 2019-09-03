@@ -1,0 +1,25 @@
+package test;
+
+public class fizzbuzz {
+    public static void main(String[] args) {
+
+
+        for (int k= 1; k <= 50; k++) {
+    if (k % 3 == 0) {
+    if (k % 5 == 0) {
+    System.out.println("FizzBuzz" + k);
+    continue;
+    } else {
+    System.out.println("Fizz" + k);
+    continue;
+    }
+    } else if (k % 5 == 0) {
+    System.out.println("Buzz" + k);
+    continue;
+    } else {
+    System.err.println(k);
+    continue;
+}
+        }
+    }
+}
