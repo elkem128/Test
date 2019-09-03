@@ -1,1 +1,17 @@
+import org.omg.Messaging.SyncScopeHelper;
 
+public class OOP {
+
+    public static void main(String[] args) {
+        }
+    public void state() {
+        System.out.println("Istanbul");
+    }
+        public void city(){
+            System.out.println("Istanbul");
+        }
+        public void country(){
+            System.out.println("Turkey");
+        }
+
+        }
