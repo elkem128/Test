@@ -1,0 +1,13 @@
+package test;
+
+public class OOP2 extends OOP {
+
+    public static void main(String[] args) {
+        OOP2 x = new OOP2();
+        x.city();
+        x.country();
+        x.state();
+    }
+
+
+}
