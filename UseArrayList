@@ -1,0 +1,22 @@
+package test;
+
+import java.util.ArrayList;
+
+public class UseArrayList {
+    public static void main(String[] args) {
+        ArrayList<String> cars = new ArrayList();
+        //ADD
+        cars.add("TOYOTA");
+        cars.add("Nissan");
+        //SIZE
+        int size = cars.size();
+        System.out.println("The size of the size is: " + size);
+        //REMOVE
+        cars.remove(size - 1);
+        System.out.println();
+        for(String car:cars){
+            System.out.println("The item is:" + car);
+        }
+
+    }
+}
