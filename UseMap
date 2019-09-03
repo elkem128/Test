@@ -1,0 +1,21 @@
+package test;
+import java.util.HashMap;
+import java.util.Map;
+
+public class UseMap {
+    public static void main(String[] args) {
+        Map<Integer,String>map = new HashMap<Integer, String>();
+
+        map.put(1,"TOYOTA");
+        map.put(2,"NISSAN");
+        map.put(3,"MAZDA");
+
+        String value1 = map.get(4);
+        System.out.println(value1);
+
+        map.put(4,"TOYOTA");
+        String value4 = map.get(4);
+        System.out.println(value4);
+
+    }
+}
